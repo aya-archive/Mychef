@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #007bff; /* Blue background color */
+    padding: 10px 20px; /* Add padding for better spacing */
+  }
+  
+  .navbar-list {
+    list-style-type: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal alignment */
+  }
+  
+  .navbar-item {
+    margin-right: 20px; /* Add margin between navbar items */
+  }
+  
+  .navbar-link {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size for navbar links */
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  

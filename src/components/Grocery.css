@@ -1,0 +1,20 @@
+/* Grocery.css */
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grocery-item.completed .item-text {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.grocery-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.grocery-item .item-text {
+  flex: 1;
+}

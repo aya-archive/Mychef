@@ -1,0 +1,43 @@
+/* src/components/Vegan.css */
+.vegan-section {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  border: 20px;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .vegan-recipe-card {
+    flex: 0 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+  }
+  .section-title {
+    padding: 60px;
+    width: 200px ;
+    height: 200px;
+    border: 10px;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .vegan-recipe-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .vegan-recipe-card p {
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  

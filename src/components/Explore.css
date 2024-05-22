@@ -1,0 +1,139 @@
+/* src/components/Explore.css */
+
+/* Main section */
+.explore-section {
+  padding: 20px;
+}
+
+/* Search bar */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px; /* Increased padding */
+  border: none; /* Remove border */
+  border-bottom: 2px solid #007bff; /* Blue underline */
+  background-color: transparent; /* Transparent background */
+  color: #333; /* Dark gray text */
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  font-size: 16px; /* Adjust font size */
+  outline: none; /* Remove focus outline */
+}
+
+.search-bar button {
+  padding: 10px 20px; /* Increased padding */
+  background-color: #007bff; /* Blue button */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  font-size: 16px; /* Adjust font size */
+}
+
+/* Filters */
+.filters {
+  margin-bottom: 20px;
+}
+
+/* Cuisine and intolerance menus */
+.cuisine-menu,
+.intolerance-menu {
+  margin-bottom: 20px;
+  color: #007bff; /* Blue color */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; /* Increased font size for better readability */
+  font-weight: bold; /* Make the text bold */
+  padding: 8px 16px; /* Add padding for better spacing */
+  margin-bottom: 10px; /* Remove duplicate margin-bottom property */
+
+}
+
+/* Hover effect to highlight the menu items */
+.cuisine-menu:hover,
+.intolerance-menu:hover {
+  background-color: #f0f8ff; /* Light blue background on hover */
+  color: #0056b3; /* Darker blue text on hover */
+}
+
+
+/* Cuisine and intolerance options */
+.cuisine-options,
+.intolerance-options {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.cuisine-options span,
+.intolerance-options span {
+  padding: 8px 16px; /* Increased padding */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 20px; /* Rounded border */
+  cursor: pointer;
+  color: #007bff; /* Blue text */
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  font-size: 14px; /* Adjust font size */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.cuisine-options span.active,
+.intolerance-options span.active {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+}
+
+.cuisine-options span:hover,
+.intolerance-options span:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+/* Recipes container */
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Recipe card */
+.recipe-card {
+  flex: 0 0 calc(33.33% - 20px);
+  background: #fff; /* White background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px); /* Lift on hover */
+}
+
+/* Recipe image */
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px; /* Rounded corners */
+  object-fit: cover;
+}
+
+/* Recipe title */
+.recipe-card h3 {
+  margin: 10px 0;
+  color: #333; /* Dark gray text */
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  font-size: 18px; /* Adjust font size */
+}
+
+/* Recipe description */
+.recipe-card p {
+  margin: 5px 0;
+  color: #777; /* Light gray text */
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  font-size: 14px; /* Adjust font size */
+}
